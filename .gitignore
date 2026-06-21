@@ -1,0 +1,18 @@
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
+node_modules/
+dist/
+.cache/
+
+# Editores e arquivos locais
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Saídas locais opcionais
+build/
+*.tmp
