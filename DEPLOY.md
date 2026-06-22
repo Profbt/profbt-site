@@ -22,6 +22,7 @@ O projeto deve ser servido diretamente a partir dos arquivos versionados:
 index.html
 assets/css/styles.css
 assets/js/app.js
+assets/img/logo.svg
 robots.txt
 sitemap.xml
 ```
@@ -65,62 +66,5 @@ https://profbt.vercel.app
 
 - Este repositório é separado de `Profbt/app_profbt`.
 - A Central dos alunos continua em `https://central.profbt.com.br`.
-- Não versionar secrets, tokens, arquivos `.env` ou credenciais.
+- Não versionar arquivos `.env` ou credenciais.
 - Antes de qualquer commit, criação de remoto ou push futuro, revisar o diff e obter aprovação.
-
-## Estado atual validado
-
-O site profissional está ativo em:
-
-- https://profbt.com.br
-- https://www.profbt.com.br
-
-Aplicação no Coolify:
-
-- Projeto: ProfBT
-- Ambiente interno: production
-- Aplicação: site-profissional
-- Repositório: Profbt/profbt-site
-- Branch: main
-- Tipo: site estático sem build
-- Build Pack: Nixpacks
-- Static Image: nginx:alpine
-- Healthcheck: GET http://localhost:80/
-- Status esperado: healthy
-
-DNS no Cloudflare:
-
-- Tipo: A
-- Nome: @
-- Conteúdo: 137.131.161.79
-- Proxy: Somente DNS
-- TTL: Auto
-
-- Tipo: A
-- Nome: www
-- Conteúdo: 137.131.161.79
-- Proxy: Somente DNS
-- TTL: Auto
-
-Validação:
-
-```bash
-curl -I https://profbt.com.br
-curl -I https://www.profbt.com.br
-```
-
-Resultado esperado:
-
-```text
-HTTP/2 200
-```
-
-## Domínios relacionados que não devem ser alterados
-
-- https://central.profbt.com.br
-- https://teste-central.profbt.com.br
-- https://painel.profbt.com.br
-- https://vps.profbt.com.br
-- https://profbt.vercel.app
-
-A Vercel deve permanecer ativa temporariamente como legado, até decisão explícita de remoção.

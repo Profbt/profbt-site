@@ -1,6 +1,6 @@
 # ProfBT Site
 
-Site profissional e institucional do Prof. Bruno Carvalho (ProfBT), preparado para o domínio futuro:
+Site profissional de Bruno Carvalho (ProfBT), preparado para o domínio futuro:
 
 ```text
 https://profbt.com.br
@@ -14,13 +14,7 @@ https://central.profbt.com.br
 
 ## Objetivo do repositório
 
-Este repositório contém o futuro site principal do ProfBT: uma presença institucional leve para apresentar atuação profissional, projetos, educação digital, sistemas e canais oficiais.
-
-A versão visual escolhida para o site principal foi:
-
-```text
-001-cinematic-minimal
-```
+Este repositório contém o futuro site principal do ProfBT: um site cartão profissional para apresentar soluções digitais para educação, profissionais, pequenos negócios, tecnologia e IA aplicada.
 
 O projeto foi pensado para ser simples de manter e publicar como site estático, sem etapa obrigatória de build.
 
@@ -41,7 +35,8 @@ profbt-site/
     ├── js/
     │   └── app.js
     ├── img/
-    │   └── .gitkeep
+    │   ├── .gitkeep
+    │   └── logo.svg
     └── icons/
         └── .gitkeep
 ```
@@ -71,6 +66,7 @@ Arquivos servidos diretamente:
 - `index.html`
 - `assets/css/styles.css`
 - `assets/js/app.js`
+- `assets/img/logo.svg`
 - `robots.txt`
 - `sitemap.xml`
 
@@ -91,3 +87,9 @@ Este site não substitui nem altera a Central dos alunos. A Central permanece se
 ```text
 https://central.profbt.com.br
 ```
+
+## Links principais
+
+- GitHub: https://github.com/profbt
+- LinkedIn: https://www.linkedin.com/in/btcarval/
+- E-mail: btcarval@gmail.com
